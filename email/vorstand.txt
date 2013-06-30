@@ -1,0 +1,10 @@
+Ahoi lieber Vorstand,
+folgender Pirat hat den Online-Parteiaustritt gewählt und bittet um Austritt:
+
+Antragstellend:
+%%vorname%% %%nachname%%
+%%mitgliedsnummer%%
+%%email%%
+
+Grüsse von
+Eurem OPA ;)

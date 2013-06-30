@@ -1,0 +1,89 @@
+.pp_online_parteiaustritt_width_30 {
+	width: 25%;
+}
+.pp_online_parteiaustritt_width_50 {
+	width: 45%;
+}
+.pp_online_parteiaustritt_width_100 {
+	width: 95%;
+}
+
+
+#edit-pp-online-parteiaustritt-vorname-wrapper {
+	width: 50%;
+	float: left;
+}
+#edit-pp-online-parteiaustritt-nachname-wrapper {
+	width: 50%;
+	float: right;
+}
+
+#edit-pp-online-parteiaustritt-mitgliedsnummer-wrapper {
+	width: 50%;
+	float: left;
+}
+
+#edit-pp-online-parteiaustritt-email-1-wrapper {
+	width: 50%;
+	float: left;
+	clear: both;
+}
+#edit-pp-online-parteiaustritt-email-2-wrapper {
+	width: 50%;
+	float: right;
+}
+
+
+#edit-pp-online-parteiaustritt-sender-wrapper {
+	width: 50%;
+	float: left;
+}
+#edit-pp-online-parteiaustritt-password-wrapper {
+	width: 50%;
+	float: right;
+}
+#edit-pp-online-parteiaustritt-receiver-wrapper {
+	width: 50%;
+}
+#edit-pp-online-parteiaustritt-wiki-link-wrapper {
+	width: 50%;
+}
+
+div.edit-pp-online-parteiaustritt-expirationdate-wrapper .form-item,
+div.edit-pp-online-parteiaustritt-delete-wrapper .form-item {
+	margin: 0;
+}
+
+div.edit-pp-online-parteiaustritt-delete-wrapper .form-item a:hover {
+	text-decoration: underline;
+}
+
+fieldset.pp_online_parteiaustritt_admin_settings_fieldset select,
+fieldset.pp_online_parteiaustritt_admin_settings_fieldset input[type='text'],
+fieldset.pp_online_parteiaustritt_admin_settings_fieldset input[type='password'] {
+	width: 95%;
+}
+
+fieldset.pp_online_parteiaustritt_admin_settings_county_fieldset select,
+fieldset.pp_online_parteiaustritt_admin_settings_county_fieldset input[type='text'] {
+	width: 95%;
+}
+
+fieldset.pp_online_parteiaustritt_admin_settings_county_fieldset div.form-item {
+	width: 50%;
+	float: left;
+}
+
+fieldset.pp_online_parteiaustritt_admin_pgp_fieldset div.form-item {
+	width: 40%;
+	float: left;
+}
+fieldset.pp_online_parteiaustritt_admin_pgp_fieldset div[id^='edit-keyid-'] {
+	width: 20% !important;
+}
+fieldset.pp_online_parteiaustritt_admin_pgp_fieldset input.form-text {
+	width: 95%;
+}
+fieldset.pp_online_parteiaustritt_admin_pgp_fieldset input.pp_online_parteiaustritt_admin_pgp_keyid {
+	width: 95%;
+}
