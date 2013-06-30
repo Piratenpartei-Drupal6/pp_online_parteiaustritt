@@ -627,7 +627,7 @@ function pp_online_parteiaustritt_form(&$form_state) {
 
 				$form['generel_data']['pp_online_parteiaustritt_satzung'] = array(
 					'#type' => 'checkbox',
-					'#title' => t('Die <a href="/landesverband/satzung">Satzung</a> der Piratenpartei Hessen erkenne ich an. Der Antrag gilt auch für alle bestehenden Gliederungen der Piratenpartei Deutschland an meinem Wohnsitz. Die Partei darf über meine E-Mail-Adresse mit mir Kontakt aufnehmen. Ich erteile mit diesem Antrag die notwendige schriftliche Einwilligung, dass die in diesem Formular gemachten Angaben an die Piratenpartei Hessen übermittelt und ausschließlich für interne Zwecke der Partei verarbeitet werden dürfen.'),
+					'#title' => t('Die Regelungen zum Austritt in der <a href="http://wiki.piratenpartei.de/Satzung#.C2.A7_4_-_Rechte_und_Pflichten_der_Piraten">Satzung</a> der Piratenpartei Deutschland erkenne ich an. Der Antrag gilt auch für alle bestehenden Gliederungen der Piratenpartei Deutschland an meinem Wohnsitz. Die Partei darf über meine E-Mail-Adresse mit mir Kontakt aufnehmen. Ich erteile mit diesem Antrag die notwendige schriftliche Einwilligung, dass die in diesem Formular gemachten Angaben an die Piratenpartei Hessen übermittelt und ausschließlich für interne Zwecke der Partei verarbeitet werden dürfen.'),
 				);
 
 				$form['generel_data']['pp_online_parteiaustritt_datenschutz'] = array(
