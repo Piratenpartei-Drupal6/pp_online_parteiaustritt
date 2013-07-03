@@ -488,7 +488,7 @@ function pp_online_parteiaustritt_form_submit($form, &$form_state) {
 					} else {
 						$mail->AddAddress($data["receiver"]);
 					}
-					$mail->Subject = t("Online-Mitgliedsantrag")." #".$code." (".$data["org"].")";
+					$mail->Subject = t("Online-Parteiaustritt")." #".$code." (".$data["org"].")";
 					$mail->Body = $body;
 					$mail->AddCustomHeader($header);
 					#$mail->AddStringAttachment($data["csv"], "import_".$code.".csv.asc", "binary", "application/pgp-encrypted");
