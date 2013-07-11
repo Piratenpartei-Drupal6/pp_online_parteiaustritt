@@ -132,7 +132,7 @@ function pp_online_parteiaustritt_block($op = 'list', $delta = '', $edit = array
 
 			case "view":
 				// SSL check
-					$ssl = variable_get('pp_online_parteiaustritt_force_ssl', NULL);
+					$ssl = variable_get('pp_online_mitgliedsantrag_force_ssl', NULL);
 					#echo $ssl;
 
 					if ($ssl == 1) {
