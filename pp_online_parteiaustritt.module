@@ -8,9 +8,9 @@ define("pp_online_parteiaustritt_DELETE_INTERVAL", 7);
 define("pp_online_parteiaustritt_CRON_INTERVAL", 60);
 
 
-function pp_online_parteiaustritt_requirements($phase) {
+/*function pp_online_parteiaustritt_requirements($phase) {
   return pp_online_mitgliedsantrag_requirements($phase);
-}
+}*/
 
 
 function pp_online_parteiaustritt_init_gpg(&$requirements = array()) {
