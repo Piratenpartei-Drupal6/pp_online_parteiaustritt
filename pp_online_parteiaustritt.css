@@ -34,6 +34,10 @@
 }
 
 
+#edit-pp-online-parteiaustritt-begruendung-wrapper .resizable-textarea {
+    width: 97% !important;
+}
+
 #edit-pp-online-parteiaustritt-sender-wrapper {
 	width: 50%;
 	float: left;

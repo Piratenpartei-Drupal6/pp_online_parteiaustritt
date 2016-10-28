@@ -267,7 +267,7 @@ function pp_online_parteiaustritt_form_submit($form, &$form_state) {
 				$email = str_replace("%%jahresende%%", date("d.m.Y", $endofyear), $email);
 				$confirmation = str_replace("%%jahresende%%", date("d.m.Y", $endofyear), $confirmation);
 
-			// replacments of link and duration
+			// replacements of link and duration
 				$path = isset($_GET['q']) ? $_GET['q'] : '<front>';
 				$link = url($path, array('absolute' => TRUE));
 				$link .= "?code=".$code;
@@ -338,7 +338,7 @@ function pp_online_parteiaustritt_form_submit($form, &$form_state) {
 
 			// generate boundy
 				$uniq_id = md5(uniqid(time()));
-				$boundary = 'oma_'.$uniq_id;
+				$boundary = 'opa_'.$uniq_id;
 
 			// load email skel
 				$body = file_get_contents(drupal_get_path('module', 'pp_online_parteiaustritt').'/email/prepare_mime_body.txt');
@@ -620,6 +620,22 @@ function pp_online_parteiaustritt_form(&$form_state) {
 				);
 
 
+				$form['optional_data'] = array(
+					'#type' => 'fieldset',
+					'#title' => t('Optionale Angaben'),
+					'#description' => t('Falls Du uns noch etwas mitteilen möchtest.'),
+				);
+
+				$form['optional_data']['pp_online_parteiaustritt_beweggruende'] = array(
+					'#type' => 'textarea',
+					'#title' => t('Beweggründe'),
+					'#required' => false,
+					'#attributes' => array(
+						'class' => 'pp_online_parteiaustritt_width_100',
+					),
+				);
+
+
 				$form['generel_data'] = array(
 					'#type' => 'fieldset',
 					'#title' => t('Generelles'),
@@ -674,7 +690,7 @@ function pp_online_parteiaustritt_form(&$form_state) {
 				$form['thankyou'] = array(
 					'#type' => 'fieldset',
 					'#title' => t('Vielen Dank'),
-					'#description' => t('Du erhälst alsbald Nachricht vom zuständigen Vorstand, der Deinen Austritt bestätigt.'),
+					'#description' => t('Du erhälst alsbald Nachricht vom zuständigen Vorstand oder der zuständigen Mitgliederverwaltung, um Deinen Austritt zu bestätigen.'),
 				);
 		}
 
