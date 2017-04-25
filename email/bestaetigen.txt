@@ -1,7 +1,7 @@
 Ahoi %%vorname%%,
 du hast soeben einen Online-Parteiaustritt initiiert.
 Damit deine Daten an den zuständigen Vorstand weitergeleitet werden können,
-muss du noch folgenden Code in das Formular eingeben:
+musst du noch folgenden Code in das Formular eingeben:
 %%code%%
 
 Solltest du das Browser-Fenster schon geschlossen haben, so kannst du
