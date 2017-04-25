@@ -6,5 +6,7 @@ Antragstellend:
 %%mitgliedsnummer%%
 %%email%%
 
+%%beweggruende%%
+
 Grüsse von
 Eurem OPA ;)
